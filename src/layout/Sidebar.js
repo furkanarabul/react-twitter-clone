@@ -7,6 +7,18 @@ import {BookmarksIcon} from "../icons/Icon"
 import {ListsIcon} from "../icons/Icon"
 import {ProfileIcon} from "../icons/Icon"
 import {MoreIcon} from "../icons/Icon"
+import {ImageIcon} from "../icons/Icon"
+import {PopularIcon} from "../icons/Icon"
+import {GifIcon} from "../icons/Icon"
+import {PollIcon} from "../icons/Icon"
+import {EmojiIcon} from "../icons/Icon"
+import {PlanIcon} from "../icons/Icon"
+import {SettingIcon} from "../icons/Icon"
+import {ReplyIcon} from "../icons/Icon"
+import {RetweetIcon} from "../icons/Icon"
+import {LikeIcon} from "../icons/Icon"
+import {ShareIcon} from "../icons/Icon"
+
 
 
 const Sidebar = () => {
@@ -21,6 +33,17 @@ const Sidebar = () => {
             <ListsIcon/>
             <ProfileIcon/>
             <MoreIcon/>
+            <ImageIcon/>
+            <PopularIcon/>
+            <GifIcon/>
+            <PollIcon/>
+            <EmojiIcon/>
+            <PlanIcon/>
+            <SettingIcon/>
+            <ReplyIcon/>
+            <RetweetIcon/>
+            <LikeIcon/>
+            <ShareIcon/>
         </div>
     )
 }
