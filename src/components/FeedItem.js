@@ -18,7 +18,7 @@ const FeedItem = ({avatar,content,displayName,image,timestamp,username}) => {
                     </span>
                 </div>
                 <p className="mt-2 text-gray-900 text-sm">{content}</p>
-                <ul className="flex justify-between">
+                <ul className="-ml-1 mt-3 flex justify-between">
                     <li className="flex items-center space-x-3 text-gray-dark text-sm group">
                         <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light">
                             <ReplyIcon className="group-hover:text-primary-base"/>
@@ -26,22 +26,21 @@ const FeedItem = ({avatar,content,displayName,image,timestamp,username}) => {
                         <span className="group-hover:text-primary-base">1</span>
                     </li>
                     <li className="flex items-center space-x-3 text-gray-dark text-sm group">
-                        <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light">
-                            <RetweetIcon className="group-hover:text-primary-base"/>
+                        <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-green-200">
+                            <RetweetIcon className="group-hover:text-green-400"/>
                         </div>
-                        <span className="group-hover:text-primary-base">1</span>
+                        <span className="group-hover:text-green-400">1</span>
                     </li>
                     <li className="flex items-center space-x-3 text-gray-dark text-sm group">
-                        <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light">
-                            <LikeIcon className="group-hover:text-primary-base"/>
+                        <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-pink-200">
+                            <LikeIcon className="group-hover:text-pink-400"/>
                         </div>
-                        <span className="group-hover:text-primary-base">1</span>
+                        <span className="group-hover:text-pink-400">1</span>
                     </li>
                     <li className="flex items-center space-x-3 text-gray-dark text-sm group">
                         <div className="flex items-center justify-center w-8 h-8 rounded-full group-hover:bg-primary-light">
                             <ShareIcon className="group-hover:text-primary-base"/>
                         </div>
-                        <span className="group-hover:text-primary-base">1</span>
                     </li>
                 </ul>
             </div>
