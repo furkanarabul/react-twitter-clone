@@ -1,7 +1,10 @@
 # Twitter Clone using React
 
 • I built a single-page **twitter clone** with Reactjs.
+
 • I followed tutorial from here: https://www.youtube.com/watch?v=Fv1NlUq2H3c&t=1s
+
+• Live preview: https://react-twitter-clone-a8713.web.app/
 
 ## Project setup
 
