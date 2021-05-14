@@ -27,5 +27,7 @@ npm run build
 # Tech
 
 • ReactJS
+
 • Tailwindcss
+
 • Firebase Firestone
